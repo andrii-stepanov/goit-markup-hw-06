@@ -73,7 +73,8 @@ img {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    padding: 24px 0;
+    padding: 24px 0px;
+    margin-right: 332px;
 }
 
 .nav-item:hover,
