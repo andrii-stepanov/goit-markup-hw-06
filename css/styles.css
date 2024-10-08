@@ -226,7 +226,8 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-transform: capitalize
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -236,7 +237,11 @@ img {
 
 .team-list-item {
     background-color: #FFFFFF;
-    padding-top: 72px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+.container-descr {
+    padding: 32px 0;
 }
 
 .team-list-name {
@@ -246,17 +251,16 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    padding-top: 32px;
+    margin-bottom: 8px;
 }
 
-.team-list-descr {
+.team-list-position {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
-    padding-top: 8px;
 }
 
 .portfolio-section {
