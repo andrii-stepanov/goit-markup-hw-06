@@ -24,6 +24,10 @@ ul {
     padding: 0;
 }
 
+img {
+    display: block;
+}
+
 .container {
     max-width: 1158px;
     margin: 0 auto;
