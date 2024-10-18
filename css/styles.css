@@ -46,6 +46,7 @@ img {
 .nav-container {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 
 .header-logo {
@@ -73,7 +74,6 @@ img {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    margin-right: 332px;
 }
 
 .nav-item:hover,
@@ -140,8 +140,7 @@ img {
     background-color: #2e2f42;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 68px;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
     max-width: 496px;
 }
 
@@ -162,7 +161,6 @@ img {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    margin-bottom: 68px;
 }
 
 .button:hover,
@@ -302,7 +300,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    padding-bottom: 32px;
 }
 
 /* Footer */
@@ -339,6 +336,5 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    padding-top: 16px;
     max-width: 264px;
 }
