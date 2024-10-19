@@ -70,6 +70,11 @@ img {
     color: #2e2f42;
 }
 
+.current {
+    position: relative;
+    color: #404bbf;
+}
+
 .nav-list {
     display: flex;
     flex-direction: row;
@@ -84,6 +89,18 @@ img {
 .nav-item-studio:active {
     color: #404bbf;
     text-decoration: underline;
+}
+
+.nav-item.current::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    height: 4px;
+    background-color: #404bbf;
 }
 
 .nav-item {
