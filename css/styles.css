@@ -85,6 +85,9 @@ img {
     gap: 40px;
 }
 
+.nav-item.current {
+    color: #404bbf;
+}
 
 .nav-item:hover,
 .nav-item:focus {
